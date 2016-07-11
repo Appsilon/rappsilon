@@ -1,0 +1,20 @@
+Package: rappsilon
+Type: Package
+Title: Appsilon Data Science internal Library
+Version: 0.1.0
+Author: Appsilon Data Science
+Maintainer: Appsilon <all@appsilondatascience.com>
+Description: Nothing here yet.
+License: Restricted
+LazyData: TRUE
+Imports:
+    dplyr,
+    magrittr,
+    sp,
+    deldir,
+    rgdal,
+    leaflet,
+    rgeos,
+    maptools,
+    crayon
+RoxygenNote: 5.0.1
