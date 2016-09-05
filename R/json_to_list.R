@@ -4,6 +4,7 @@
 #' @param column_name - column name containg json
 #'
 #' @return list
+#' @export
 json_to_list <- function (data, column_name){
 
   extract <- lapply(data[,column_name], function(x) {
